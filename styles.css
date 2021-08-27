@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+h3{
+    margin-left:15px;
+
+}
+header{
+    font-size: 40px;
+    border-bottom:1px solid black;
+}
+
+body{
+    background-color: khaki;
+}
+
+@media only screen and (min-width: 400px) and (min-height: 600px) {
+    .nav-link{
+        font-size: 2.8vw;
+        margin-left:5%;
+        margin-top:10vh;
+        text-decoration: none;
+        font-family:'Rampart One';
+        color: black;
+        
+    }
+
+    #navbar{
+        border-right:1px solid  brown;
+        float: left ;
+        position: fixed;
+        width:24%;
+        height:100%;
+        background-color: darkorange;
+    }
+    #main-doc{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left:26%;    
+    }    
+    #nav_header{
+        font-family:'Rampart One';
+        font-size:3vw; 
+        margin-top:5vh;
+        margin-bottom:1vh;
+        margin-left:1vh;
+
+    }
+
+        
+} 
+
+
